@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: rgb(230, 230, 230);
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        text-align: center;
+    }
+
+    @media screen and ( max-width : 992px ){
+    .container {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 300px;
+    }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>HTML</h3>
+            <p>Lorem ipsum</p>
+        </div>
+        <div class="box">
+            <h3>CSS</h3>
+            <p>Lorem ipsum</p>
+        </div>
+        <div class="box">
+            <h3>Javascript</h3>
+            <p>Lorem ipsum</p>
+        </div>
+        <div class="box">
+            <h3>jQuery</h3>
+            <p>Lorem ipsum</p>
+        </div>
+    </div>
+</body>
+</html>
